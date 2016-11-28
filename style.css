@@ -1,0 +1,35 @@
+body {
+	background: #DFD2BF;
+	height: 100%;   /* ges Hoehe der Seite -> weitere Hoehenangaben werden relativ hierzu ausgewertet */
+overflow: hidden;   /*  hide scrollbars */
+opacity: 1.0;
+-webkit-transition: background 1.5s linear;
+-moz-transition: background 1.5s linear;
+-o-transition: background 1.5s linear;
+-ms-transition: background 1.5s linear;
+transition: background 1.5s linear;
+ 
+}
+
+h1 {
+	background: #483D06;
+	font-size: 1em;
+	color: #F8E72C;
+}
+p {
+	
+}
+
+
+
+<link href=“{{ css file }}">
+<img src=“{{ image }}">
+<a href=“{{ page link }}">
+selector {
+background-image: url({{ image }});
+}
+
+
+<tag id=“my-id” class=“my-class”>
+access iN CSS
+tag {…}, #my-id {…}, .my-class {…}
